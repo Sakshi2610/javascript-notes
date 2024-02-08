@@ -1,4 +1,5 @@
 /*var let and const
+
 var ==> in var if we specify var with same name it overrides
 code:- */
 console.log(name) //undefined
@@ -19,7 +20,3 @@ var age = 20
 console.log(age);  // after again declaration it overrides the value i.e. 20
 }
 console.log(age) // and here also it will printed the overrided value i.e. 20
-
-
-// ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-

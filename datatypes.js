@@ -11,10 +11,10 @@
 
 /* Datatypes are very important without data types a computer cannot safely sove anything
     When adding a number and a string, JavaScript will treat the number as a string.*/
-    let x = 16 + "Volvo";
-    console.log(x);     // 16Volvo
-    let x1 = "Volvo" + 16;
-    console.log(x1);    //Volvo16
+let x = 16 + "Volvo";
+console.log(x);     // 16Volvo
+let x1 = "Volvo" + 16;
+console.log(x1);    //Volvo16
 
 //JavaScript evaluates expressions from left to right. Different sequences can produce different results:
 let num1 = 16 + 4 + "Volvo"; //JavaScript treats 16 and 4 as numbers, until it reaches "Volvo".
@@ -51,5 +51,25 @@ console.log(car);
 let fruit = null
 console.log(fruit);
 
-// 7. Symbol
-// 8. Object
+// 7. Symbol ==> represents a unique identifier
+const sym1 = Symbol();
+console.log(sym1);
+
+// 8. Object ==> JavaScript objects are written with curly braces {}.
+//Object properties are written as name:value pairs, separated by commas.
+
+const book = {
+    name : "Harry Potter",
+    author : "J. k. Rowling",
+    Genre : "Magic"
+}
+console.log(book.name); // in two ways we can console with dot(.) operator
+console.log(book['Genre']); // 2nd with square braces['']
+
+//we can add in object with following ways like
+book.Characters = ["Harry", "Ron", "Hermione"]
+console.log(book.Characters);
+
+//with curly braces
+book['parts_of_harry_potter'] = 8
+console.log("Parts of Harry Potter : ",book['parts_of_harry_potter']);

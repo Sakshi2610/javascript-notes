@@ -89,3 +89,30 @@ console.log("after adding new element using push",colors);
 // we use new method called Array.isArray()
 console.log(typeof(colors)) // object
 console.log(Array.isArray(colors)) //true
+
+// at() method ==>  returns an indexed element from an array.
+console.log(colors.at(1));
+
+// join() ==> joins all array elements into a string It just like toString(), but in addition you can specify the separator
+const subjects = ["Maths", "Science", "English"]
+console.log(subjects.join("**"));
+
+// pop() method ==> removes the last element from an array
+const names = ["sakshi", "raj", "divya", "gayatri", "hritika"]
+names.pop()
+console.log(names)
+
+// push() ==> adds a new element to an array (at the end)
+names.push("bob")
+console.log(names)
+
+// shift() method ==> removes the first array element and "shifts" all other elements to a lower index
+names.shift()
+console.log(names);
+
+// unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements
+names.unshift("alice")
+console.log(names)
+
+// slice() method slices out a piece of an array into a new array
+console.log(names.slice(2));

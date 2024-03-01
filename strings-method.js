@@ -79,3 +79,22 @@ function search(){
     return index
 }
 console.log(search());
+
+school = "viva"
+console.log(`my name is ${school}`)
+
+// nested object
+let obj = {
+    fruits : {
+        name : "apple",
+        color : "red",
+        taste : {
+            taste1 : "sweet",
+            taste2 : "bitter"
+        }
+    }
+}
+console.log(obj.fruits.taste.taste1)
+class Fruit {
+    
+}

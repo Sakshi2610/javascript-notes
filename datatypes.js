@@ -72,4 +72,15 @@ console.log(book.Characters);
 
 //with curly braces
 book['parts_of_harry_potter'] = 8
-console.log("Parts of Harry Potter : ",book['parts_of_harry_potter']);
+console.log("Parts of Harry Potter : ",book['parts_of_harry_potter'])
+
+const student47 = {
+    name : "sakshi",
+    rollno : 47,
+    dept : "MCA"
+}
+student47['sub'] = "python"
+console.log(student47)
+
+// student47 = ["apple", "mango", "kiwi"]
+// console.log(student47)
